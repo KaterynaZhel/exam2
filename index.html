@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Project</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/088e8092d2.js" crossorigin="anonymous"></script>
+    <script>
+
+        function myFunction() {
+            var x = document.getElementsByClassName("tabs_items")[0];
+            if (x.style.display === "flex") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "flex";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="contant">
+            <!---->
+            <!--1 block-->
+            <div class="portfolio">
+                <div class="name_block1">Моє портфоліо</div>
+                <div class="text_block1">Тут зібрана вся інформація про мене. Раджу ретельно ознайомитись та
+                    запропонувати
+                    співпрацю )</div>
+            </div>
+
+            <!--2 block-->
+            <!-- "Hamburger menu"  -->
+            <a href="javascript:void(0);" class="tabs-mobile-menu" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <nav class="nav">
+                <a href="#tab_01" class="tab_item">Про мене</a>
+                <a href="#tab_02" class="tab_item">Проекти</a>
+                <a href="#tab_03" class="tab_item">Навички</a>
+                <a href="#tab_04" class="tab_item">Контакти</a>
+            </nav>
+
+            <!--3 block-->
+            <div class="information info">
+                <div class="photo" id="tab_01"><img src="/img/My_photo.JPG" alt="photo" width="100%"></div>
+                <div class="my_information">
+                    <ul>
+                        <li class="questionnaire"><b>Ім'я - </b>Катерина Желєзняк</li>
+                        <li class="questionnaire"><b>Вік - </b>16 із хвостиком</li>
+                        <li class="questionnaire"><b>Освіта - </b>вища</li>
+                        <li class="questionnaire"><b>Місто - </b>Запоріжжя</li>
+                    </ul>
+                </div>
+            </div>
+            <!--4 block-->
+            <div class="my_prodjects info">
+                <div class="title">
+                    <h2 id="tab_02">Проекти</h2>
+                </div>
+
+                <div class="gallery1 gal">
+                    <a href="https://intita.com/"><img class="prodjects" src="/img/prod1.jpg" alt="проект 1"
+                            width="30%"></a>
+                    <a href="https://intita.com/"><img class="prodjects" src="/img/prod7.jpg" alt="проект 2"
+                            width="30%"></a>
+                    <a href="https://intita.com/"><img class="prodjects" src="/img/prod8.jpg" alt="проект 3"
+                            width="30%"></a>
+                </div>
+                <div class="gallery2 gal">
+                    <a href="https://intita.com/"><img class="prodjects" src="/img/prod4.jpg" alt="проект 4"
+                            width="30%"></a>
+                    <a href="https://intita.com/"><img class="prodjects" src="/img/prod6.jpg" alt="проект 5"
+                            width="30%"></a>
+                    <a href="https://intita.com/"><img class="prodjects" src="/img/prod10.jpg" alt="проект 6"
+                            width="30%"></a>
+
+                </div>
+            </div>
+            <!--5 block-->
+            <div class="hard_skills info">
+                <div class="title">
+                    <h2 id="tab_03">Навички</h2>
+                </div>
+                <div class="skills">
+                    <ul>
+                        <li>Писати код на HTML, CSS, JavaScript</li>
+                        <li>Оптимізувати код.</li>
+                        <li>Читати та правити чужий код.</li>
+                        <li>Працювати з різними середовищами розробки.</li>
+                        <li>Працювати із різними системами контролю версій.</li>
+                    </ul>
+                </div>
+            </div>
+            <!--6 block-->
+            <div class="contacts info">
+
+                <div class="title">
+                    <h2 id="tab_04">Контакти</h2>
+                </div>
+                <div class="address">
+                    <ul>
+                        <li>Україна, м. Запоріжжя</li>
+                        <li>+38(055)555-55-55</li>
+                        <li>univer@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <!--7 block-->
+            <div class="footer">
+                <a href="https://www.instagram.com/" class="social_networks"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://facebook.com/" class="social_networks"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://telegram.org/" class="social_networks"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://www.linkedin.com/" class="social_networks"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
